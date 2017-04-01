@@ -15,13 +15,14 @@ def copyright_notice_year_range(start_year)
   end
 end
 
-# Returns the full title on a per-page basis.
-  def full_title(page_title = 'Arusifiti For the Perfect wedding')
-    base_title = "Welcome to Arusifiti For the Perfect wedding"
+# Page title and M
+  
+  def full_title(page_title)
+    base_title = "Arusifiti For the Perfect wedding"
     if page_title.empty?
       base_title
     else
-      page_title + " &bull; ".html_safe + base_title
+      page_title + " &bull; ".html_safe + "Arusifiti"
     end
   end
 
