@@ -18,7 +18,7 @@
 body {
     font: 400 12px/1.6 'Montserrat', Open Sans, sans-serif;
     font-size: 16px;
-    /*line-height: 27px;*/
+    // line-height: 27px;
     background-color: #fff;
     color: #706a68;
     -webkit-font-smoothing: antialiased;
@@ -37,12 +37,12 @@ h6 {
 
 h1 {
     font-size: 30px;
-    /*letter-spacing: -1px;*/
+    //letter-spacing: -1px;
 }
 
 h2 {
     font-size: 18px;
-    /*letter-spacing: -1px;*/
+    //letter-spacing: -1px;
 }
 
 h3 {
@@ -1405,6 +1405,28 @@ ul .dropdown-menu {
     height: 160px;
     margin-bottom: 30px;
     background: image_url("vendor.svg") 195px 0px no-repeat;
+}
+
+// for responsive icons
+
+@media screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .vendor-icon {
+        height: 160px;
+        margin-bottom: 30px;
+        background: image_url("vendor.svg") 110px 0px no-repeat;  
+    }
+
+    .couple-icon {
+
+        height: 160px;
+        margin-bottom: 30px;
+        background: image_url("couple.svg") 110px 0px no-repeat;
+    }
+
 }
 
 
@@ -6443,6 +6465,7 @@ figure.effect-oscar:hover img {
     border-bottom: 0;
     border-top: 7px solid rgba(0,0,0,.15);
 }
+
 */
 .datepicker {
     width: 300px !important;
