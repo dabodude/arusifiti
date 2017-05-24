@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
 def index
+
 end
 
 def about
@@ -8,9 +9,11 @@ def about
 end
 
 def blog
+
 end
 
 def contact
+
 end
 
 end
