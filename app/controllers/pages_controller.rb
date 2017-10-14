@@ -1,19 +1,19 @@
 class PagesController < ApplicationController
 
-def index
+	def index
 
-end
+	end
 
-def about
+	def about
 
-end
+	end
 
-def blog
+	def blog
 
-end
+	end
 
-def contact
+	def contact
 
-end
+	end
 
 end

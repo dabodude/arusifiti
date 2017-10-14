@@ -13,11 +13,11 @@
 //= require_self
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-sprockets
 //= require owl.carousel.min
 //= require slider
 //= require turbolinks
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
+//= require bootstrap-sprockets
 

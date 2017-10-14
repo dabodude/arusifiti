@@ -8,7 +8,7 @@ $('#sidebar').affix({
   }
 });
 
-/* activate scrollspy menu */
+/* activate scroll spy menu */
 var $body   = $(document.body);
 var navHeight = $('.navbar').outerHeight(true) + 10;
 

@@ -1,5 +1,7 @@
 
 // main css for the app
+//background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+//background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
 //-----------------------------
 // 01 - General CSS - Basic setup Typography and Template Input css
 //------------------------------
@@ -3938,7 +3940,9 @@ section.module.parallax-2 {
 
 /*----- Feature Regular icon blocks-----*/
 
-.feature-block {}
+.feature-block {
+
+}
 
 .feature-icon-all-vendor {
     width: 80px;

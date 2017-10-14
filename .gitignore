@@ -7,11 +7,15 @@
 # Ignore bundler config.
 /.bundle
 
+/arusifiti-app.sublime-project
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
+/idea/*
 !/log/.keep
 !/tmp/.keep
+!/idea/.keep
 
 # Ignore Byebug command history file.
 .byebug_history

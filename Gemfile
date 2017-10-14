@@ -5,23 +5,22 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.2'
-gem 'mysql2', '>= 0.3.18', '< 0.5'
-gem 'puma', '~> 3.8.2'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-gem 'bootstrap-select-rails', '~> 1.6', '>= 1.6.3'
-gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
-gem 'fontello-rails', '~> 0.2.0'
-gem 'coffee-rails', '~> 4.2'
+gem 'rails', '~> 5.1.4'
+gem 'mysql2'
+gem 'puma'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'bootstrap-sass'
+gem 'bootstrap-select-rails'
+gem 'font-awesome-rails'
+gem 'fontello-rails'
+gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+gem 'turbolinks'
+gem 'jbuilder'
+gem 'devise'
 
-# gem 'devise', '~> 4.2'
 # gem 'ckeditor', '~> 4.1', '>= 4.1.6'
 # gem 'bootstrap-will_paginate', '~> 0.0.10'
 
@@ -34,9 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
  # PostgreSQL for production purposes
-# group :production do
-#   gem 'pg'
-# end
+group :production do
+  gem 'pg'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
