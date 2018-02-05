@@ -14,5 +14,5 @@ This application running on Rails 5.0.1 and ruby 2.2.4.
  
 
 
-* ARUSIFITI INC COPYRIGHT 2014 - 2017
+* ARUSIFITI INC COPYRIGHT 2014 - 2018
 * ...
