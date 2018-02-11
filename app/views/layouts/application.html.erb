@@ -19,14 +19,16 @@
   </head>
 
   <body>
-  <!-- header -->
-  <%= render 'layouts/header' %>
+    <% if notice %><p class="alert alert-success"><%= notice %></p> <% end %>
+    <% if alert %> <p class="alert alert-danger"><%= alert %></p> <% end %>
+    <!-- header -->
+    <%= render 'layouts/header' %>
 
 
-  <%= yield %>
+    <%= yield %>
 
-  <!-- Footer -->
-  <%= render 'layouts/footer' %>
+    <!-- Footer -->
+    <%= render 'layouts/footer' %>
   
   </body>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
