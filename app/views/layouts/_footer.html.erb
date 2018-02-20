@@ -1,0 +1,56 @@
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 ft-link">
+				<h2> ARUSIFITI </h2>
+				<ul>
+					<li><%= link_to "About", about_path %></li>
+					<li><%= link_to "Blog", blog_path %></li>
+					<li><%= link_to "Price", '#' %></li>
+					<li><%= link_to "Arusifiti Enterprise", '#' %></li>
+				</ul>
+			</div>
+			<div class="col-md-4 ft-link">
+				<h2> COMMUNITY </h2>
+				<ul>
+					<li><%= link_to "Press", '#' %></li>
+					<li><%= link_to "Career", '#' %></li>
+					<li><%= link_to "Vendor Review", '#' %></li>
+					<li><%= link_to "Arusifiti Magazine ", '#' %></li>
+				</ul>
+			</div> 
+
+			<div class="col-md-4 ft-link">
+				<h2> HELP </h2>
+				<ul>
+					<li><%= link_to "Contact", contact_path %></li>
+					<li><%= link_to "Support", '#' %></li>
+					<li><%= link_to "Privacy Policy", '#' %></li>
+					<li><%= link_to "Terms and Conditions", '#' %></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="social-icon"><!-- social icon -->
+			<h2>We are Social </h2>
+			<ul>
+				<li><%= link_to ("http://facebook.com/arusifiti") do %> <i class='fa fa-facebook-square'> </i> <% end %></li>
+				<li><%= link_to ("http://twitter.com/arusifiti") do %> <i class='fa fa-twitter-square'> </i> <% end %></li>
+				<li><%= link_to ("http://instagram.com/arusifiti") do %> <i class='fa fa-instagram'> </i> <% end %></li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- /.Footer -->
+
+<!-- Tiny footer -->
+<div class="tiny-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"> 
+			&copy; <%= copyright_notice_year_range(2013) %> <%= link_to "Arusifiti Inc.", root_path %>  All Rights Reserved.</div>
+		</div>
+	</div>
+</div>
