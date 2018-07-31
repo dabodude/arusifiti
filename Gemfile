@@ -7,7 +7,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
-gem 'mysql2'
+gem 'mysql2', '~> 0.5.2'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
@@ -33,9 +33,9 @@ gem 'devise'
 # gem 'capistrano-rails', group: :development
 
  # PostgreSQL for production purposes
-group :production do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
